@@ -45,4 +45,21 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    def roomVersion = "2.4.2"
+
+    implementation("androidx.room:room-runtime:$roomVersion")
+    annotationProcessor("androidx.room:room-compiler:$roomVersion")
+
+    // To use Kotlin annotation processing tool (kapt)
+    kapt("androidx.room:room-compiler:$roomVersion")
+    // To use Kotlin Symbolic Processing (KSP)
+    def lifecycle_version = "2.2.0"
+    // Annotation processor
+    kapt "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
+    //coroutines
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0'
+
+    implementation 'androidx.cardview:cardview:1.0.0'
+
 }
