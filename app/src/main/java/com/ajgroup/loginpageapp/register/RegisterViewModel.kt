@@ -7,6 +7,9 @@ import androidx.databinding.Observable
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.viewModelScope
+import com.ajgroup.loginpageapp.database.RegisterEntity
+import com.ajgroup.loginpageapp.database.RegisterRepository
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

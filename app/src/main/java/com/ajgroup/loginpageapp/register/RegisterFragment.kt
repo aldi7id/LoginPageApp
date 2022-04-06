@@ -8,7 +8,13 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.databinding.DataBindingUtil
+import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.NavHostFragment
+import com.ajgroup.loginpageapp.R
+import com.ajgroup.loginpageapp.database.RegisterDatabase
+import com.ajgroup.loginpageapp.database.RegisterRepository
+import com.ajgroup.loginpageapp.databinding.RegisterHomeFragmentBinding
 
 class RegisterFragment : Fragment() {
 
