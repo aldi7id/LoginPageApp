@@ -7,8 +7,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
+import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.NavHostFragment
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.ajgroup.loginpageapp.R
+import com.ajgroup.loginpageapp.database.RegisterDatabase
+import com.ajgroup.loginpageapp.database.RegisterRepository
+import com.ajgroup.loginpageapp.databinding.UserDetailsFragmentBinding
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER

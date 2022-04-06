@@ -7,7 +7,7 @@
     <data>
         <variable
             name="myViewModel"
-            type="com.example.mydatabaseapp.register.RegisterViewModel" />
+            type="com.ajgroup.loginpageapp.register.RegisterViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

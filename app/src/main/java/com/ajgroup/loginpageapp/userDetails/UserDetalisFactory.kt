@@ -3,6 +3,7 @@ package com.ajgroup.loginpageapp.userDetails
 import android.app.Application
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import com.ajgroup.loginpageapp.database.RegisterRepository
 import java.lang.IllegalArgumentException
 
 class UserDetalisFactory (
