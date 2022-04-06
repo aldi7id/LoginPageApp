@@ -2,4 +2,11 @@
     <string name="app_name">Login Page App</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="signupText">Sign Up</string>
+    <string name="Login_button">Login</string>
+    <string name="PasswordTextFiels">Masukkan Password Kembali</string>
+    <string name="UsernameTextField">Masukkan Username Anda</string>
+    <string name="PasswordText">Password</string>
+    <string name="UserNameTextView">Username:</string>
+    <string name="Login_text">Login</string>
 </resources>
