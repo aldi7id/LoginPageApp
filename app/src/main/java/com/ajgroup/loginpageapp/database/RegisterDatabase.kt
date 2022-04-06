@@ -1,4 +1,4 @@
-package com.ajgroup.loginpageapp
+package com.ajgroup.loginpageapp.database
 
 import android.content.Context
 import androidx.room.Database

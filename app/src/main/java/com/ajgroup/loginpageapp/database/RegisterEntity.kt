@@ -1,4 +1,4 @@
-package com.ajgroup.loginpageapp
+package com.ajgroup.loginpageapp.database
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
